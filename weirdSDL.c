@@ -78,8 +78,8 @@ int main(int argc, char *argv[])
       printf("x: %d, y: %d \n", x, y);
 
       drawLinesMousePos(50, renderer, x, y);
-      // drawWeirdLines(50, true, renderer);
-      // drawWeirdPoints(5000, true, renderer);
+      // drawWeirdLines(50, true, renderer); // uncomment this line if you want to
+      // drawWeirdPoints(5000, true, renderer); //  uncomment this line if you want to
 
       SDL_RenderPresent(renderer);
    }
